@@ -7,6 +7,7 @@ public class Restaurant
 	Location _address;
 	Menu _lunchMenu;
 	Menu _dinnerMenu;
+	Menu _onlineMenu;
 	
 	public static Restaurant findByName(String name)
 	{

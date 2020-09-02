@@ -1,11 +1,13 @@
 package com.mastercard.main.java.restaurant.services;
 
+import java.awt.Image;
 import java.util.List;
 
 import javax.jws.WebService;
 
 import com.mastercard.main.java.invoice.Invoice;
 import com.mastercard.main.java.order.Order;
+import com.mastercard.main.java.restaurant.resources.Menu;
 import com.mastercard.main.java.restaurant.resources.MenuItem;
 import com.mastercard.main.java.restaurant.user.User;
 
@@ -98,9 +100,9 @@ public class MastercardRestaurantServiceImpl implements PandemicService
 	}
 
 	@Override
-	public void scanMenuService() {
+	public Menu scanMenuService(Image barcode) {
 		// TODO Auto-generated method stub
-		
+		return null;
 	}
 	
 }
