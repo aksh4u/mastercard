@@ -27,7 +27,7 @@ public interface PandemicService extends RestaurantService
 	// User orders regional specialty
 	@WebMethod public Order regionalSpecialtyService(User user);
 	
-	// User scans the bar code and should be displayed on their smart phone
+	// User scans the bar code and menu should be displayed on their smart phone
 	@WebMethod public Menu scanMenuService(Image barcode);
 
 }
