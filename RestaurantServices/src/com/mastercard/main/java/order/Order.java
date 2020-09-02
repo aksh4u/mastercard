@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.mastercard.main.java.invoice.Invoice;
 import com.mastercard.main.java.restaurant.resources.MenuItem;
+import com.mastercard.main.java.restaurant.user.User;
 
 /** This class stores information of Order palced by customer  
  * 
@@ -16,4 +17,5 @@ public class Order
 	List<MenuItem> _menuItems;
 	Invoice _invoice;
 	String _status; // new, in progress, closed
+	User _user;
 }
